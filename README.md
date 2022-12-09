@@ -7,7 +7,8 @@
 
 #### vercel.json内容中
 
-`{
+```json
+{
   "functions": {
     "api/index.php": {
       "runtime": "vercel-php@0.5.2"
@@ -17,6 +18,7 @@
     { "src": "/(.*)",  "dest": "/api/index.php" }
   ]
 } 
+```
 
 对于的php本版为
 
